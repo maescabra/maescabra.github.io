@@ -1,5 +1,5 @@
-import Hammer from "hammerjs";
-import "./styles.css";
+import Hammer from "../node_modules/hammerjs/hammer";
+import "styles.css";
 
 class Carousel {
   constructor(element) {
