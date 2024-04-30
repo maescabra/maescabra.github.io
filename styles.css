@@ -1,11 +1,15 @@
+/* Réinitialisation des styles par défaut */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f9f6ef; /* Jaune/orange */
     color: #5e366e; /* Rose/violet */
 }
+
+/* Styles pour l'en-tête */
 
 header {
     background-color: #ffa700; /* Jaune/orange */
@@ -14,6 +18,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
 }
 
 nav ul {
@@ -25,14 +34,56 @@ nav ul li {
     margin-right: 20px;
 }
 
+nav ul li a {
+    color: #5e366e; /* Rose/violet */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff69b4; /* Rose/violet plus vif */
+}
+
+/* Styles pour les sections principales */
+
 .section {
     padding: 80px 20px;
     text-align: center;
 }
 
 h2 {
-    color: #ff69b4; /* Rose/violet */
+    color: #ff69b4; /* Rose/violet plus vif */
 }
+
+/* Styles pour le formulaire de contact */
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ffa700; /* Jaune/orange */
+    color: #5e366e; /* Rose/violet */
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff69b4; /* Rose/violet plus vif */
+    color: #fff;
+}
+
+/* Styles pour le pied de page */
 
 footer {
     background-color: #ffa700; /* Jaune/orange */
