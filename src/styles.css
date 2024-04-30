@@ -94,7 +94,7 @@ footer {
 
 #board {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     position: relative;
     overflow: hidden;
     background-color: rgb(245, 247, 250);
@@ -103,6 +103,8 @@ footer {
   .card {
     width: 320px;
     height: 320px;
+    top: 50%;
+    left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
