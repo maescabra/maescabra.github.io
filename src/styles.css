@@ -1,12 +1,10 @@
-/* Réinitialisation des styles par défaut */
-
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f9f6ef; /* Jaune/orange */
-    color: #5e366e; /* Rose/violet */
+    color: #cc2878; /* Rose/violet */
 }
 
 /* Styles pour l'en-tête */
@@ -14,7 +12,7 @@ body {
 header {
     background-color: #ffa700; /* Jaune/orange */
     padding: 20px;
-    color: #5e366e; /* Rose/violet */
+    color: #cc2878; /* Rose/violet */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,13 +33,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #5e366e; /* Rose/violet */
+    color: #cc2878; /* Rose/violet */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ff69b4; /* Rose/violet plus vif */
+    color: #cc2878; /* Rose/violet plus vif */
 }
 
 /* Styles pour les sections principales */
@@ -52,7 +50,7 @@ nav ul li a:hover {
 }
 
 h2 {
-    color: #ff69b4; /* Rose/violet plus vif */
+    color: #cc2878; /* Rose/violet plus vif */
 }
 
 /* Styles pour le formulaire de contact */
@@ -69,7 +67,7 @@ textarea {
 
 input[type="submit"] {
     background-color: #ffa700; /* Jaune/orange */
-    color: #5e366e; /* Rose/violet */
+    color: #cc2878; /* Rose/violet */
     border: none;
     padding: 12px 20px;
     font-size: 16px;
@@ -79,7 +77,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #ff69b4; /* Rose/violet plus vif */
+    background-color: #cc2878; /* Rose/violet plus vif */
     color: #fff;
 }
 
@@ -89,7 +87,7 @@ footer {
     background-color: #ffa700; /* Jaune/orange */
     padding: 20px;
     text-align: center;
-    color: #5e366e; /* Rose/violet */
+    color: #cc2878; /* Rose/violet */
 }
 
 /*Carrousel*/
@@ -106,8 +104,6 @@ footer {
     width: 320px;
     height: 320px;
     position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
     background-color: white;
