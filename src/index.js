@@ -1,4 +1,4 @@
-import Hammer from "../node_modules/hammerjs/hammer";
+import Hammer from "https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js";
 import "./styles.css";
 
 class Carousel {
